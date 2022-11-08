@@ -1,0 +1,47 @@
+.about-container {
+  min-height: 55vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+  .about-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+
+    .about-content-text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      p{
+        width: 100%;
+        font-size: 0.9rem;
+        margin: 1rem 0;
+      }
+    }
+
+    .about-icons-container {
+      width: 45%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 2rem;
+      font-weight: 300;
+        padding: 0 2rem;
+      i{
+        background: none;
+      }
+    }
+  }
+  .fa-code{
+    color: #1db954;
+  }
+  #diff{
+    color: #1db954;
+}
+}

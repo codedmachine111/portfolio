@@ -1,0 +1,49 @@
+.contact-form {
+  padding: 1rem 0;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  border: 3px solid #333;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+
+  input {
+    text-transform: capitalize;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem 0;
+    font-family: "Urbanist", sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    letter-spacing: 1px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid hsl(225, 10%, 45%);
+
+    &:hover{
+      box-shadow: 0 0 5px #1db954;
+      border-bottom: 1px solid #1db954;
+      transition: all 0.2s ease;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px #1db954;
+      border-bottom: 1px solid #1db954;
+      transition: ease 0.2s;
+    }
+  }
+  #email {
+    text-transform: lowercase;
+  }
+  #email::placeholder {
+    text-transform: capitalize;
+  }
+  #message {
+    border: none;
+    border-bottom: 1px solid hsl(225, 10%, 45%);
+    resize: none;
+  }
+}
