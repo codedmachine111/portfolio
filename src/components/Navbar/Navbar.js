@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import profile from "../../assets/profile.jpg";
+import profile from "../../assets/cropped.jpg";
 
 export default function Navbar() {
   return (

@@ -40,7 +40,7 @@ export const Contact = () => {
         </div>
           </div>
           <div className="contact-form-container">
-            <Subheading text="Contact Form" />
+            <h1>Write to <span id="diff">me</span></h1>
             <ContactForm />
           </div>
         </div>

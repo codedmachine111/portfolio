@@ -1,0 +1,16 @@
+.projects-container{
+    min-height: 60vh;
+    height: auto;
+
+
+    .project-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+        padding: 1rem 0;
+    }
+    #diff{
+        color: #1db954;
+    }
+}
