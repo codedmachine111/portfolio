@@ -45,3 +45,35 @@
     color: #1db954;
 }
 }
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    .about-content {
+      width: 100%;
+      margin: 1rem 0;
+        .about-content-text {
+        width: 100%;
+
+        p{
+          width: 100%;
+          font-size: 0.9rem;
+          margin: 1rem 0;
+        }
+      }
+      .about-icons-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 300;
+        padding: 0 2rem;
+        i{
+          background: none;
+        }
+      }
+    }
+  }
+} 

@@ -14,3 +14,12 @@
         color: #1db954;
     }
 }
+@media only screen and (max-width: 600px) {
+    .projects-container{
+        .project-cards-container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+} 

@@ -1,5 +1,6 @@
 .home-section {
-  height: 85vh;
+  min-height: 85vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,3 +61,33 @@
     color: #1db954;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .home-section {
+
+    .info-container {
+      flex-direction: column;
+      .info-details-container {
+        width: 100%;
+        .title-container {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+        .description-container {
+          p {
+            width: 100%;
+          }
+        }
+      }
+      .info-image-container {
+        width: 100%;
+        .info-image-holder {
+          img {
+            width: 15rem;
+          }
+        }
+      }
+    }
+  }
+} 

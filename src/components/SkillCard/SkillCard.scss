@@ -35,3 +35,9 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
 }
+@media only screen and (max-width: 600px) {
+  .skill-card-container {
+    width: 55%;
+    margin: 0.5rem 0;
+  }
+} 

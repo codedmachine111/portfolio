@@ -9,3 +9,8 @@
     padding: 0 7rem;
     scrollbar-color: #1db954;
 }
+@media only screen and (max-width: 600px) {
+    .App{
+        padding: 0 1rem;
+    }
+} 

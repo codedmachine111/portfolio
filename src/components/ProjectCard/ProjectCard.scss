@@ -100,3 +100,23 @@
       border-radius: 10px;
     }
 }
+@media only screen and (max-width: 600px) {
+  .project-card{
+    width: 80%;
+    margin: 0.5rem 0;
+    min-height: 40vh;
+    height: auto;
+
+    #vert{
+      min-height: 40vh;
+      height: auto;
+    }
+  }
+  .project-card-horz{
+    width: 80%;
+    margin: 1.5rem 0;
+    min-height: 20vh;
+    height: auto;
+
+  }
+} 
