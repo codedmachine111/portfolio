@@ -83,8 +83,16 @@
       font-size: 0.9rem;
       margin: 0.5rem 0;
     }
+    .btn-holder {
+      a {  
+        button {
+         top: 65%;
+        }
+      }
+    }
 
     &:hover {
+      
       cursor: pointer;
       transform: scale(1.02);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
