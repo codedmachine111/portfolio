@@ -12,16 +12,24 @@ export const Home = () => {
             <Subheading text="introduction" />
             <div className="title-container">
               <h1>Hello!</h1>
-              <h1>I am <span id="diff">Akash</span></h1>
+              <h1>
+                I am <span id="diff">Akash</span>
+              </h1>
             </div>
             <div className="description-container">
-              <p>Frontend React developer. I build amazing projects, learn quick, play around and explore different technologies. Get in touch with me and I will be happy to offer my services.</p>
-              </div>            
+              <p>
+                Frontend React developer. I build amazing projects, learn quick,
+                play around and explore different technologies. Get in touch
+                with me and I will be happy to offer my services.
+              </p>
+            </div>
+            <a href="https://github.com/codedmachine111" target="_blank">
               <Button title="GITHUB" />
+            </a>
           </div>
           <div className="info-image-container">
             <div className="info-image-holder">
-            <img src={profile} alt=""/>
+              <img src={profile} alt="" />
             </div>
           </div>
         </div>

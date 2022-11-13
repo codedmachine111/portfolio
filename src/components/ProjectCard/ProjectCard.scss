@@ -52,7 +52,13 @@
     transform: scale(1.02);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease;
-
+    h2{
+      top: 5%;
+    }
+    p{
+      top: 20%;
+      font-size: 0.8rem;
+    }
     .btn-holder {
       button {
         display: block;
