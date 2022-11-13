@@ -26,18 +26,22 @@
     font-size: 0.9rem;
   }
   .btn-holder {
-    a {
-      padding: 1rem;
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    position: absolute;
+    top: 50%;
+    background: none;
+    padding: 1rem;
 
+    a {
+      background: none;
+      text-decoration: none;
       button {
         opacity: 100;
         text-align: center;
-        position: absolute;
-        top: 50%;
         display: none;
       }
     }
@@ -53,10 +57,10 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease;
     h2{
-      top: 5%;
+      top: 4%;
     }
     p{
-      top: 20%;
+      top: 18%;
       font-size: 0.8rem;
     }
     .btn-holder {
