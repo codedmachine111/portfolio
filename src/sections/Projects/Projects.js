@@ -16,11 +16,11 @@ export const Projects = () => {
           My recent <span id="diff">works</span>
         </h2>
         <div className="project-cards-container">
-            <ProjectCard img={proj1} id="vert" name="trabebo" desc="A web-design for a travel website built using Reactjs"  link="https://trabebo.netlify.app"/>
-            <ProjectCard img={proj3} id="vert" name="portfolio" desc="A minimalist web-design for a portfolio website built using Reactjs" link="https://akashnayak.netlify.app"/>
-            <ProjectCard img={proj5} id="vert" name="blogs" desc="A personal blog website built using Gatsby."/>
-            <ProjectCard img={proj2} horz={true} name="superdrip" desc="A web-design for a fully functioning E-commerce website website built using Reactjs with redux and Hooks" link="https://superdrip.netlify.app"/>
-            <ProjectCard img={proj4} horz={true} name="sos-pulse" desc="Send an SOS when you are in trouble to an emergency email"/>
+            <ProjectCard img={proj1} id="vert" name="trabebo" desc="A web-design for a travel website built using Reactjs"  link="https://trabebo.netlify.app" demo={true}/>
+            <ProjectCard img={proj3} id="vert" name="portfolio" desc="A minimalist web-design for a portfolio website built using Reactjs" link="https://akashnayak.netlify.app" demo={true}/>
+            <ProjectCard img={proj5} id="vert" name="blogs" desc="A personal blog website built using Gatsby." demo={false}/>
+            <ProjectCard img={proj2} horz={true} name="superdrip" desc="A web-design for a fully functioning E-commerce website website built using Reactjs with redux and Hooks" link="https://superdrip.netlify.app" demo={true}/>
+            <ProjectCard img={proj4} horz={true} name="sos-pulse" desc="Send an SOS when you are in trouble to an emergency email"demo={false}/>
         </div>
       </section>
     </>

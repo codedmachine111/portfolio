@@ -13,9 +13,11 @@ export const ProjectCard = (props) => {
             <a href={`https://github.com/codedmachine111/${props.name}`} target="_blank">
               <Button title="GITHUB" />
             </a>
-            {/* <a href={props.link} target="_blank">
+            {props.demo ? (
+              <a href={props.link} target="_blank">
               <Button title="DEMO" />
-            </a> */}
+            </a>
+            ):(<></>)}
           </div>
         </div>
       ) : (
@@ -27,9 +29,11 @@ export const ProjectCard = (props) => {
             <a href={`https://github.com/codedmachine111/${props.name}`} target="_blank">
               <Button title="GITHUB" />
             </a>
-            {/* <a href={props.link} target="_blank">
+            {props.demo ? (
+              <a href={props.link} target="_blank">
               <Button title="DEMO" />
-            </a> */}
+            </a>
+            ):(<></>)}
           </div>
         </div>
       )}
