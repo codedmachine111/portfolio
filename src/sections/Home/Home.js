@@ -1,6 +1,6 @@
 import "./Home.scss";
 import { Button } from "../../components/Button/Button";
-import profile from "../../assets/cropped.jpg";
+import profile from "../../assets/profile.jpg";
 import { Subheading } from "../../components/Subheading/Subheading";
 
 export const Home = () => {
