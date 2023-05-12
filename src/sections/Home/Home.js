@@ -2,12 +2,29 @@ import "./Home.scss";
 import { Button } from "../../components/Button/Button";
 import profile from "../../assets/profile.jpg";
 import { Subheading } from "../../components/Subheading/Subheading";
+import anime from "animejs";
+import { useEffect, useRef } from "react";
 
 export const Home = () => {
+  const infoContainer = useRef(null);
+
+  useEffect(() => {
+    if (infoContainer.current) {
+      anime({
+        targets: infoContainer.current.children,
+        translateY: [100, 0],
+        opacity: [0, 1],
+        easing: "easeOutQuad",
+        duration: 1000,
+        delay: anime.stagger(100),
+      });
+    }
+  }, []);
+
   return (
     <>
       <section className="home-section">
-        <div className="info-container">
+        <div className="info-container" ref={infoContainer}>
           <div className="info-details-container">
             <Subheading text="introduction" />
             <div className="title-container">

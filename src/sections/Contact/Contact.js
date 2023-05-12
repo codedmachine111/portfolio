@@ -1,12 +1,34 @@
 import "./Contact.scss";
 import { Subheading } from "../../components/Subheading/Subheading";
 import { ContactForm } from "../../components/ContactForm/ContactForm";
+import { useRef, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import anime from "animejs";
 
 export const Contact = () => {
+  const { ref: contactRef, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true,
+  });
+
+  const contactContent = useRef(null);
+
+  useEffect(() => {
+    if (inView && contactContent.current !== null) {
+      anime({
+        targets: contactContent.current.children,
+        translateY: [100, 0],
+        opacity: [0, 1],
+        duration: 1000,
+        delay: anime.stagger(20),
+        easing: "easeOutQuad",
+      });
+    }
+  });
   return (
     <>
-      <section className="contact-container">
-        <div className="contact-content">
+      <section className="contact-container" ref={contactRef}>
+        <div className="contact-content" ref={contactContent}>
           <div className="contact-content-text">
           <Subheading text="Contact" />
           <h2>

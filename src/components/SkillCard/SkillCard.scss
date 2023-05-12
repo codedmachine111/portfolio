@@ -13,6 +13,8 @@
     #26282a -9.55%,
     rgba(45, 48, 54, 0) 106.05%
   );
+  margin: 0.5rem 0;
+  aspect-ratio: 3/3;
 
   .skill-card-title {
     width: 100%;
@@ -28,6 +30,7 @@
     font-weight: 400;
     margin-bottom: 0.5rem;
     background: none;
+    opacity: 0.8;
   }
 
   &:hover {
@@ -39,5 +42,6 @@
   .skill-card-container {
     width: 55%;
     margin: 0.5rem 0;
+    aspect-ratio: 3/3;
   }
 } 
