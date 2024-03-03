@@ -28,25 +28,29 @@ export const About = () => {
 
   return (
     <section className="about-container" ref={aboutRef}>
-      
       <div className="about-content" ref={aboutContent}>
-      <Subheading text="About" />
-        <h2>Who am <span id="diff">I</span>?</h2>
+        <Subheading text="About" />
+        <h2>
+          Who am <span id="diff">I</span>?
+        </h2>
         <div className="about-content-text">
           <p>
             A tech enthusiast pursuing bachelors degree in Electronics and
             Communications at KLE Technological University, Hubli.
           </p>
           <p>
-            I am a Full-Stack Developer with a strong focus on delivering frontend experiences.
-            I am always looking to learn new technologies and improve my skills. I work on DeepLearning projects on the side and a beginner to Tensorflow.
-            I plan on building meaningful projects and grow as a developer.
+            I'm a Full-Stack Developer who prioritizes creating engaging
+            frontend experiences. I'm dedicated to learning new technologies and
+            improving my skills. My passion lies in software engineering, and
+            I'm eager to evolve as a developer.
           </p>
         </div>
       </div>
       <div className="about-content" ref={aboutContent}>
-      <Subheading text="Technologies" />
-      <h2>My top <span id="diff">10</span> technologies</h2>
+        <Subheading text="Technologies" />
+        <h2>
+          My top <span id="diff">10</span> technologies
+        </h2>
         <div className="technology-icon-container">
           <Icons />
         </div>

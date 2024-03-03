@@ -35,12 +35,17 @@ export const Home = () => {
             </div>
             <div className="description-container">
               <p>
-                Frontend React developer. I build amazing projects, learn quick,
-                play around and explore different technologies. Get in touch
-                with me and I will be happy to offer my services.
+                A Frontend developer who loves crafting fantastic projects.
+                I'm quick to learn, enjoy exploring various technologies, and
+                always up for experimenting. Reach out to me, and I'd be
+                delighted to assist you with my services.
               </p>
             </div>
-            <a href="https://github.com/codedmachine111" target="_blank">
+            <a
+              href="https://github.com/codedmachine111"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button title="GITHUB" />
             </a>
           </div>

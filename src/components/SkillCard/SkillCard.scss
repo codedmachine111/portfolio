@@ -37,10 +37,22 @@
     transform: scale(1.02);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
+
+  .skill-card-skills{
+    width: 100%;
+    background: none;
+    font-size: 0.9rem;
+
+    span{
+      background: none;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
 }
 @media only screen and (max-width: 600px) {
   .skill-card-container {
-    width: 55%;
+    width: 80%;
     margin: 0.5rem 0;
     aspect-ratio: 3/3;
   }

@@ -55,7 +55,7 @@ export const Contact = () => {
             </a>
           </li>
           <li className="contact-link">
-          <a href="mailto:charlesbabbage1709@gmail.com">
+          <a href="mailto:akashnayak.ubl@gmail.com">
               <i className="fas fa-envelope"></i>
             </a>
           </li>

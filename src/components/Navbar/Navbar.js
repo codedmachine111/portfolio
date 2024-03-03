@@ -26,7 +26,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-link">
-          <a href="mailto:charlesbabbage1709@gmail.com">
+          <a href="mailto:akashnayak.ubl@gmail.com">
               <i className="fas fa-envelope"></i>
             </a>
           </li>

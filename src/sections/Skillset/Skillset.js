@@ -35,20 +35,20 @@ export const Skillset = () => {
         </h2>
         <div className="skillset-cards-container" ref={skillsetContainer}>
           <SkillCard
-            title="Frontend Development"
+            title="Frontend Web Development"
             desc="Creating stunning user interfaces while developing a good frontend website using React with technologies like context or redux, and Hooks. Implementing clean code and best practices to ensure the good quality in the final product."
           />
           <SkillCard
-            title="Full-Stack Development"
+            title="Full-Stack Web Development"
             desc="Skilled in building full-stack web application using Node.js, Express, React and MySQL. Experience in designing and developing RESTful APIs and integrating them with the frontend."
           />
           <SkillCard
-            title="Deep Learning"
-            desc="Experience working on deep learning projects using TensorFlow and TensorFlow.js. Worked with Convolutional Neural Networks (CNNs) and Transfer Learning."
+            title="ML/DL"
+            desc="Experience with Machine Learning and Deep Learning projects, utilizing tools like TensorFlow and popular ML libraries like scikit-learn. Additionally, conducted research on Generative AI, specifically exploring text-to-image generation using advance techniques."
           />
           <SkillCard
-            title="DSA in Java"
-            desc="Data Structures and Algorithms in Java. Problem solving skill and logic building."
+            title="DSA in C++"
+            desc="Data Structures and Algorithms in C++. Problem solving skill and logic building."
           />
         </div>
       </section>
